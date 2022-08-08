@@ -40,14 +40,45 @@ int d = Convert.ToInt32 (Console.ReadLine());
 
     if (c < d)
         {
-        max = d; min = c;
+        // max = d; min = c;
         Console.WriteLine("max: " + d);
         Console.WriteLine("min: " + c);
         }
     else
         {
-        max = d; min = c;
+        // max = d; min = c;
         Console.WriteLine("max: " + c);
         Console.WriteLine("min: " + d);
         }
 
+// Задача 4: Напишите программу, которая принимает на вход три числа и выдаёт максимальное из этих чисел.
+
+// 2, 3, 7 -> 7
+// 44 5 78 -> 78
+// 22 3 9 -> 22
+
+Console.WriteLine ( );
+
+Console.WriteLine ("А сейчас, введи 3 числа, я и снова найду минимальное и максималное");
+
+Console.WriteLine (" ");
+
+Console.Write ("Введи первое число (e): ");
+
+int e = Convert.ToInt32 (Console.ReadLine());
+
+Console.Write ("Введи второе число (f): ");
+
+int f = Convert.ToInt32 (Console.ReadLine());
+
+Console.Write ("Введи третье число (g): ");
+
+int g = Convert.ToInt32 (Console.ReadLine());
+
+int maximum = e;
+
+    if (e >= max) maximum = e;
+    if (f >= max) maximum = f;
+    if (g >= max) maximum = g;
+
+Console.WriteLine("max: " + maximum);
