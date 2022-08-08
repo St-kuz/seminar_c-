@@ -24,6 +24,8 @@ Console.WriteLine("min: " + min);
 
 // Еще раз
 
+Console.WriteLine (" ");
+
 Console.WriteLine ("Пожалуйста, введи еще 2 числа, я снова найду минимальное и максималное, но буду использовать другую логику");
 
 Console.WriteLine (" ");
@@ -36,24 +38,26 @@ Console.Write ("Введи второе число (d): ");
 
 int d = Convert.ToInt32 (Console.ReadLine());
 
-    if (c < d)
-        {
+if (c < d)
+    {
         // max = d; min = c;
         Console.WriteLine("max: " + d);
         Console.WriteLine("min: " + c);
-        }
-    else
-        {
+    }
+else
+    {
         // max = d; min = c;
         Console.WriteLine("max: " + c);
         Console.WriteLine("min: " + d);
-        }
+    }
 
 // Задача 4: Напишите программу, которая принимает на вход три числа и выдаёт максимальное из этих чисел.
 
 // 2, 3, 7 -> 7
 // 44 5 78 -> 78
 // 22 3 9 -> 22
+
+Console.WriteLine (" ");
 
 Console.WriteLine ("А сейчас, введи 3 числа, я и снова найду минимальное и максималное");
 
@@ -85,6 +89,8 @@ Console.WriteLine("max: " + maximum);
 // -3 -> нет
 //  7 -> нет
 
+Console.WriteLine (" ");
+
 Console.WriteLine ("Потруднее, введи 1 число, я скажу четное оно или нет");
 
 Console.WriteLine (" ");
@@ -106,6 +112,8 @@ else
 
 // 5 -> 2, 4
 // 8 -> 2, 4, 6, 8
+
+Console.WriteLine (" ");
 
 Console.WriteLine ("Сейчас, введи еще 1 число, я покажу тебе как глубока кроличья нора");
 
